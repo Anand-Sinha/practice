@@ -4,7 +4,9 @@ html{
 body{
   text-align: center;
     border-top: solid red 5px;
+    border-bottom: solid red 5px;
     font-family: "Roboto";
+    background: url("bg.png");
 }
 .aaa{
   color: grey;
@@ -50,9 +52,15 @@ h1{
 }
 .gototop{
 
-  position: relative;
-  top: 400px;
+
   right: 50px;
+  position: sticky;
+  top: 85%;
+
+  height: 50px;
+  width: 60px;
+  margin: -50px 0 0 90%;
+  z-index: 999
 
 }
 .topbuttons .btn{
@@ -75,11 +83,12 @@ h1{
   top: 0;
   width: 100%;
   height: 50px;
-  background-color: grey;
+  background-color: #543864;
   z-index: 10;
 }
 .custombtn{
   height: 50px;
+  color: silver;
   position: relative;
   top: 0px;
   right: 0px;
@@ -107,7 +116,7 @@ h1{
 .yelline{
   height: 0px;
   width: 100%;
-  box-shadow: 0 0px 60px 30px #faf4ff;
+  box-shadow: 0 0px 60px 30px #543864;
   margin: 0;
   z-index: 5;
 }
@@ -130,7 +139,7 @@ h1{
 .nbuttons{
   position: sticky;
   top: 38%;
-  height: 550px;
+  height: 50px;
   width: 60px;
   margin: -100px 0 -450px 95%;
   z-index: 999
@@ -174,10 +183,6 @@ h1{
 .card{
   margin: 0 10% 0;
 }
-.reviews{
-  height: 700px;
-  background-color: lightgrey;
-}
 .container-fluid .fab{
   font-size: 100px;
   margin: 50px 0;
@@ -200,4 +205,80 @@ h1{
   width: 70px;
   height: 70px;
   z-index: 99;
+}
+.reviews{
+  background-color: #543864;
+  height: 800px;
+  padding: 0%;
+}
+.reviews h1{
+  padding: 5% 20%;
+}
+
+.revimg{
+  text-align: center;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+.reviews em{
+  font-size: 1rem;
+  color: white;
+  width: 300px;
+  line-height: 150px;
+  margin: 0 auto;
+}
+.projects{
+  padding: 10% 15%;
+}
+.imgg{
+  height: 250px;
+}
+.btn-outline-danger{
+  width: 80%;
+}
+.downloads{
+  padding: 5%;
+  height: 500px;
+  background-color: #204051;
+}
+.downloads .btn-group{
+  width: 20%;
+  margin: 5% 3%;
+}
+.downloads .play{
+  width: 20px;
+  margin: 0;
+  padding: 0;
+}
+.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-envelope {
+  padding: 20px;
+  font-size: 25px;
+}
+.ftrt{
+  color: #8f8f8f;
+  font-size: 17px;
+  font-weight: 500;
+}
+.fa-twitter:hover{
+  color: #00acee;
+  transform: scale(1.5);
+}
+.fa-facebook-f:hover{
+  color: #3b5998;
+  transform: scale(1.5);
+}
+.fa-instagram:hover{
+  color: #bc2a8d;
+  transform: scale(1.5);
+}
+.fa-envelope:hover{
+  color: #ff4c68;
+  transform: scale(1.5);
+}
+.ftrt:hover{
+  color: silver;
+}
+.footer{
+  background-color: #faf4ff;
+padding: 10%;
 }
