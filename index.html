@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Custon Layout</title>
+    <link rel="icon" href="">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/01d68998f7.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<section class="intro">
+  <img class="myimg "src="Images/Untitled-2.png" alt="myimg">
+  <!-- <div class="logoback">
+    <img class="logo" src="Images/logo.png"></img>
+  </div> -->
+  <div class="topbuttons">
+    <a href="#about"><button class="btn btn-outline-dark btn-lg" type="button" name="button">About</button></a>
+    <a href="#features"><button class="btn btn-outline-dark btn-lg" type="button" name="button">Features</button></a>
+    <button class="btn btn-outline-dark btn-lg" type="button" name="button">Follow</button>
+  </div>
+</section>
+
+      <nav id="about" class="navbar navbar-expand-lg navbar-light">
+      <div class="logoshadow">
+      </div>
+      <a class="navbar-brand" href="#"><img class="navlogo" src="Images/logo.png" alt=""></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><button class="custombtn" type="button" name="button">Goto 1</button></li>
+      <li class="nav-item"><button class="custombtn" type="button" name="button">Goto 2</li>
+      <li class="nav-item"><button class="custombtn" type="button" name="button">Goto 3</li>
+    </ul>
+  </div>
+  </nav>
+
+  <section class="mainsec">
+    <div class="yelline"></div>
+  </section>
+  <div class="nbuttons">
+          <!-- <div class="aa">
+
+          <a href="#"> <button type="button" name="button"><i class="fas fa-home aaa"></i></button></a>
+        </div> -->
+        <div class="gototop">
+        <a href="#"> <button class="btn btn-danger btn-sm" type="button" name="button"> <i style="color:black; font-size:50px;line-height:60px;" class="fas fa-arrow-up aaa"></i></button></a>
+        </div>
+  </div>
+  <section class="mainsec-">
+
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+              <!-- <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol> -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+
+                      <div class="col-lg-6">
+                        <img class="iphone" src="Images/iphone.png" alt="">
+                      </div>
+                      <div class="col-lg-6">
+                        <h1><i class="fab fa-apple"></i> iPhone </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam turpis nisl, sit amet molestie enim sagittis eu.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+
+                    <div class="col-lg-6">
+                      <img class="android" src="Images/android.png" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                      <h1><i class="fab fa-android"></i> Android </h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam turpis nisl, sit amet molestie enim sagittis eu.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+
+                    <div class="col-lg-6">
+                      <img class="windowsp" src="Images/windows.png" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                      <h1><i class="fab fa-windows"></i><br>Windows</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam turpis nisl, sit amet molestie enim sagittis eu.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </section>
+
+          <section id="features" class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                            <i class="fab fa-apple"></i>
+                            <div class="card-body">
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam turpis nisl, sit amet molestie enim sagittis eu.</p>
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-lg btn-dark">View</button>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                            <img class="play" src="Images/play.png" alt="">
+                            <div class="card-body">
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam turpis nisl, sit amet molestie enim sagittis eu.</p>
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-lg btn-outline-dark">View</button>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                            <i class="fab fa-windows"></i>
+                            <div class="card-body">
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam turpis nisl, sit amet molestie enim sagittis eu.</p>
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-lg btn-primary">View</button>
+                              </div>
+                            </div>
+                          </div>
+              </div>
+              <h2>Features</h2>
+            </div>
+      </section>
+
+      <section class="reviews">
+
+      </section>
+  </body>
+</html>
